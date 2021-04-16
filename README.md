@@ -18,7 +18,7 @@ This sample is a demo Python web application that signs-in users with the Micros
 To run this sample, you'll need:
 
 > - [Python 3+](https://www.python.org/downloads/release/python-364/)
-> - An Azure Active Directory (Azure AD) tenant. For more information on how to get an Azure AD tenant, see [how to get an Azure AD tenant.](https://docs.microsoft.com/azure/active-directory/develop/quickstart-create-new-tenant)
+> - An Azure Active Directory (Azure AD) tenant. For more information on how to get an Azure AD tenant, see [how to get an Azure AD tenant.](https://docs.microsoft.com/azure/active-directory/develop/quickstart-create-new-tenant). Or sign up for a free developer tenant with sample data [here](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
 
 ### Step 1:  Clone or download this repository
 
@@ -59,8 +59,8 @@ As a first step you'll need to:
 1. Select **Save**.
 1. From the **Certificates & secrets** page, in the **Client secrets** section, choose **New client secret**:
    - Type a key description (of instance `app secret`),
-   - Select a key duration of either **In 1 year**, **In 2 years**, or **Never Expires**.
-   - When you press the **Add** button, the key value will be displayed, copy, and save the value in a safe location.
+   - Use the default key duration of **6 months** or choose a different one. Shorter is better.
+   - When you press the **Add** button, the key **value** will be displayed, copy, and save the value in a safe location. Make sure to copy the **Value** field, not the ID.
    - You'll need this key later to configure the `app_config.py` file.. This key value will not be displayed again, nor retrievable by any other means,
      so record it as soon as it is visible from the Azure portal.
 1. Select the **API permissions** section
