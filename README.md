@@ -2,7 +2,9 @@
 
 ## About this sample
 
-> This sample has been modified from the Python quickstart for the Microsoft identity platform:
+This applicaton was made for a SANS White Paper, ["Decreasing Attacker Dwell Time in Azure Active Directory"](https://www.sans.org/white-papers/40390/) and should only be used to demonstrate the example highlighted in the paper. Since the publication of the paper, several security updates have been released for the libaries this application uses. Again, do not use this application outside demonstrating the concept in the paper.
+
+This sample has been modified from the Python quickstart for the Microsoft identity platform:
 [Quickstart: Add sign-in with Microsoft to a Python web app]("https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-python-webapp")
 
 ### Overview
